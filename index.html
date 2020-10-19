@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="login-form">
+      <img
+        class="login-form__validate-image"
+        src="./images/validate-image.png"
+        alt="validate"
+      />
+      <span class="login-form__greeting-text">Welcome Back!</span>
+      <input
+        type="email"
+        placeholder="Email"
+        name="email"
+        id="login-form__input_email"
+        required
+      />
+      <input
+        type="password"
+        placeholder="Password"
+        name="password"
+        id="login-form__input_password"
+        required
+      />
+      <a class="login-form__forgot-password-link" href="#">Forgot Password?</a>
+      <button type="submit" class="login-form__button_submit">Log in</button>
+      <div class="login-form__register-link-container">
+        <span class="login-form__register-link-text"
+          >Don’t have an account?
+          <a class="login-form__register-link" href="#">Register</a></span
+        >
+      </div>
+      <button type="button" class="login-form__button_exit"></button>
+    </form>
+  </body>
+</html>

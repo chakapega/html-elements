@@ -1,0 +1,112 @@
+.login-form {
+  position: relative;
+  width: 384px;
+  height: 510px;
+}
+
+.login-form__validate-image {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.login-form__greeting-text {
+  position: absolute;
+  width: 197px;
+  height: 29px;
+  left: 40px;
+  top: 127px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #000000;
+}
+
+#login-form__input_email {
+  position: absolute;
+  width: 282px;
+  height: 42px;
+  left: 40px;
+  top: 188px;
+  border: 1px solid #e0e0e0;
+  color: #4f4f4f;
+  padding-left: 18px;
+}
+
+#login-form__input_email::placeholder {
+  color: #4f4f4f;
+}
+
+#login-form__input_password {
+  position: absolute;
+  width: 282px;
+  height: 42px;
+  left: 40px;
+  top: 246px;
+  border: 1px solid #e0e0e0;
+  color: #4f4f4f;
+  padding-left: 18px;
+}
+
+#login-form__input_password::placeholder {
+  color: #4f4f4f;
+}
+
+.login-form__forgot-password-link {
+  position: absolute;
+  width: 147px;
+  height: 20px;
+  left: 197px;
+  top: 304px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  color: #2f80ed;
+}
+
+.login-form__button_submit {
+  position: absolute;
+  width: 304px;
+  height: 42px;
+  left: 40px;
+  top: 356px;
+  background: #2f80ed;
+  border-radius: 2px;
+  border-style: none;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.login-form__register-link-container {
+  position: absolute;
+  width: 261px;
+  height: 20px;
+  left: 62px;
+  top: 450px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  color: #4f4f4f;
+}
+
+.login-form__register-link {
+  color: #2f80ed;
+}
+
+.login-form__button_exit {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  height: 24px;
+  width: 24px;
+  background-image: url(../images/exit-icon.svg);
+  background-size: cover;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
