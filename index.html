@@ -12,35 +12,39 @@
   </head>
   <body>
     <form class="login-form">
-      <img
-        class="login-form__validate-image"
-        src="./images/validate-image.png"
-        alt="validate"
-      />
-      <span class="login-form__greeting-text">Welcome Back!</span>
-      <input
-        type="email"
-        placeholder="Email"
-        name="email"
-        id="login-form__input_email"
-        required
-      />
-      <input
-        type="password"
-        placeholder="Password"
-        name="password"
-        id="login-form__input_password"
-        required
-      />
-      <a class="login-form__forgot-password-link" href="#">Forgot Password?</a>
-      <button type="submit" class="login-form__button_submit">Log in</button>
-      <div class="login-form__register-link-container">
-        <span class="login-form__register-link-text"
-          >Don’t have an account?
-          <a class="login-form__register-link" href="#">Register</a></span
-        >
-      </div>
       <button type="button" class="login-form__button_exit"></button>
+      <div class="login-form-container">
+        <img
+          class="login-form__validate-image"
+          src="./images/validate-image.png"
+          alt="validate"
+        />
+        <span class="login-form__greeting-text">Welcome Back!</span>
+        <input
+          type="email"
+          placeholder="Email"
+          name="email"
+          id="login-form__input_email"
+          required
+        />
+        <input
+          type="password"
+          placeholder="Password"
+          name="password"
+          id="login-form__input_password"
+          required
+        />
+        <a class="login-form__forgot-password-link" href="#"
+          >Forgot Password?</a
+        >
+        <button type="submit" class="login-form__button_submit">Log in</button>
+        <div class="login-form__register-link-container">
+          <span class="login-form__register-link-text"
+            >Don’t have an account?
+            <a class="login-form__register-link" href="#">Register</a></span
+          >
+        </div>
+      </div>
     </form>
   </body>
 </html>
